@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body, main{
+    height: 100%;
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+h2{
+    font-family:'Times New Roman', Times, serif;
+}
+
+h3{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.sec1{
+    background-color: #895d3e;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.sec1Text{
+    position: relative;
+    top: -80px;
+}
+
+.sec1 h1{
+    font-size: 100px;
+}
+
+.sec1 p{
+    font-size: 40px;
+}
+
+.sec1Img{
+    margin-top: 70px;
+}
+
+.sec1Img img{
+    width: 344px;
+    height: 580px;
+    border-radius: 40%;
+    position: relative;
+    top: -50px;
+    border: 5px outset black;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.555);
+}
+
+.sec1Img2{
+    display: flex;
+    position: absolute;
+    top: 220px;
+    margin-left: 80px;
+}
+
+.sec1Img2 img{
+    width: 200px;
+}
+
+.sec2{
+    background-color: #d0b08e;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px groove rgba(0, 0, 0, 0.753);
+}
+
+.sec2Img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2Img img{
+    width: 360px;
+    height: 600px;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 40%;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.507);
+    border: 5px outset black;
+}
+
+.sec2Text{
+    width: 100%;
+    height: 100%;
+    background-color: #f8edd7;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/golpedekarate.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+    color: white;
+    text-shadow: 2px 2px 2px #050404;
+}
+
+.sec2Caixa{
+    margin-left: 20px;
+}
+
+.sec2Caixa h1{
+    text-align: center;
+}
+
+.sec2Caixa p{
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 25px;
+    text-align: justify;
+    width: 600px;
+}
+
+.sec3{
+    background-color: #d0b08e;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-top: 5px groove rgba(0, 0, 0, 0.459);
+}
+
+.sec3Text{
+    width: 100%;
+    height: 100%;
+    background-color: #f8edd7;
+}
+
+.sec3Text h1{
+    margin-top: 20px;
+}
+
+.sec3Text h2{
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.sec3Text li{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.sec3CaixaText{
+    margin-left: 50px;
+}
+
+.sec3Text2{
+    width: 100%;
+    height: 100%;
+    background-color: #d0b08e;
+    
+}
+
+.sec3Text2 h1{
+    margin-top: 20px;
+}
+
+.sec3Text2 h2{
+    font-size: 35px;
+    margin-top: 30px;
+
+}
+
+.sec3Text2 li{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.lista{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.sec3CaixaText2{
+    margin-left: 50px;
+}
+
+.sec4{
+    background-color: #895d3e;
+    height: 100%;
+    width: 100%;
+    border-top: 5px groove rgba(0, 0, 0, 0.459);
+}
+
+.sec4 h3{
+    margin-top: 22px;
+}
+
+.sec4Text{
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: 10px;
+    margin-top: 20px;
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    border: 3px outset black;
+
+}
+
+.card h3{
+    text-align: center;
+    font-size: 22px;
+}
+
+.card p{
+    margin: 30px;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.sec5{
+    background-image: url('../img/imgdefundo.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color: black;
+    border-top: 5px groove black;
+}
+
+.sec5 p{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Kanit", sans-serif;
+}
+
+.sec5 h1{
+    font-weight: 400;
+    font-family: "Kanit", sans-serif;
+    font-size: 49px;
+}
+
+.sec5Text{
+    margin-top: 130px;
+    margin-left: 90px;
+}
+
+.sec5Textcaixa2{
+    margin-left: 98px;
+    margin-top: 80px;
+}
+
+.sec5Text3{
+    margin-top: 50px;
+
+}
